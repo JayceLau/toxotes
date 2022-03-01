@@ -4,6 +4,9 @@ package terror
 
 const OK uint32 = 0
 const ErrCommon = 100001
+const ErrTokenExpire = 100002
+const ErrTokenGenerate = 100003
+const ErrDatabase = 100004
 const ErrUnknown uint32 = 999999
 
 // 用户模块

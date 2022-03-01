@@ -13,6 +13,9 @@ func init() {
 	message[ErrUserNotExist] = "用户不存在"
 	message[ErrUsernameOrPasswordWrong] = "用户名或密码错误"
 	message[ErrPhoneExist] = "该手机号已存在"
+	message[ErrTokenExpire] = "token失效，请重新登录"
+	message[ErrTokenGenerate] = "生产token失败"
+	message[ErrDatabase] = "数据库错误，请稍后重试"
 }
 
 func MapErrMsg(code uint32) string {

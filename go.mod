@@ -1,4 +1,4 @@
-module toxotes.co/core
+module github.com/JayceLau/toxotes
 
 go 1.17
 
